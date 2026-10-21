@@ -1,0 +1,6 @@
+services:
+  multisite_config.overrider:
+    class: Drupal\multisite_config\Config\MultisiteConfigOverrides
+    arguments: [ '@config.factory' ]
+    tags:
+      - {name: config.factory.override, priority: 1}
