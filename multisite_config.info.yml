@@ -1,5 +1,5 @@
 name: 'Multi-site Configuration'
 type: module
 description: 'Site-specific configuration overrides and cache bins for Drupal multisites sharing active configuration storage.'
-package: multisite_configuration
+package: multisite_config
 core_version_requirement: ^11
