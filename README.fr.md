@@ -42,9 +42,9 @@ et une configuration commune.
    drush --uri=https://main.example.org en multisite_config -y
    ```
 
-Le module ne contient actuellement pas de `composer.json`. Ces instructions
-utilisent une installation manuelle sans présumer l'existence d'un paquet
-Composer publié.
+Le fichier `composer.json` définit le paquet `drupal/multisite_config`.
+Ces instructions utilisent une installation manuelle, la publication dans un
+dépôt Composer n'ayant pas encore été confirmée.
 
 ## Configuration
 

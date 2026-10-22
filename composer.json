@@ -1,0 +1,11 @@
+{
+    "name": "drupal/multisite_config",
+    "description": "Site-specific configuration overrides and cache bins for Drupal multisites sharing active configuration storage.",
+    "type": "drupal-module",
+    "license": "GPL-3.0-only",
+    "keywords": ["Drupal", "multisite", "configuration"],
+    "require": {
+        "php": ">=8.3",
+        "drupal/core": "^11"
+    }
+}

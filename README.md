@@ -39,8 +39,9 @@ baseline.
    drush --uri=https://main.example.org en multisite_config -y
    ```
 
-The module does not currently contain a `composer.json`. These instructions use
-manual placement rather than assume that a published Composer package exists.
+The included `composer.json` defines the package as `drupal/multisite_config`.
+These instructions use manual placement because publication in a Composer
+repository has not yet been confirmed.
 
 ## Configuration
 
